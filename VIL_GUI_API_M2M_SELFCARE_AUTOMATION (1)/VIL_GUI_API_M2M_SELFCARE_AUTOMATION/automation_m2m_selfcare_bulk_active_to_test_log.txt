@@ -1,0 +1,36 @@
+2025-11-13 10:59:13,590 - INFO - === Automation Script Started ===
+2025-11-13 11:00:02,676 - INFO - Connecting to outer SSH server...
+2025-11-13 11:00:02,745 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2025-11-13 11:00:03,088 - INFO - Authentication (password) successful!
+2025-11-13 11:00:03,088 - INFO - Connected to outer SSH server.
+2025-11-13 11:00:03,189 - INFO - Connecting to inner SSH server through outer...
+2025-11-13 11:00:03,218 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2025-11-13 11:00:03,648 - INFO - Auth banner: b'Authorized access only. This system is the property of VodafoneIdea Mobile. \nDisconnect IMMEDIATELY if you are not an authorized user! All connection attempts are logged and monitored. \nAll unauthorized connection attempts will be investigated and handed over to the proper authorities.\n'
+2025-11-13 11:00:03,650 - INFO - Authentication (password) successful!
+2025-11-13 11:00:03,650 - INFO - Connected to inner SSH server.
+2025-11-13 11:00:03,650 - INFO - Executing curl command on inner server...
+2025-11-13 11:00:04,125 - INFO - === CURL STDOUT START ===
+2025-11-13 11:00:04,125 - INFO - HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Powered-By: Undertow/1
+Date: Thu, 13 Nov 2025 05:30:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+
+{"resultParam":{"resultCode":"0","resultDescription":"Success"},"deal":{"dealId":2171721265,"createDate":"2025-11-13T05:30:04.601+00:00","updateDate":"2025-11-13T05:30:04.601+00:00","basePlanName":"CMP_Vi_IOT_2MB_TEST_5","basePlanPrice":"5.00","statusId":1,"tenantId":"100","contractName":null,"transitionDealId":null,"transitionDeal":null,"testDeal":null,"vitsl":null,"enterpriseDeal":null,"dealName":"M2M_SELFCARE_TEST_STATE_CHANGE_2","dealStartDate":"2023-10-12","dealEndDate":"2027-12-31","accountType":"M2M","basePlanId":"184","eCode":"M2M_SELFCARE_AUTO_13","addOns":[],"discounts":[],"serviceClass":[],"dealCircle":"1130589","circle":{"id":1130589,"circleId":1130589,"circleCode":"MUM","circleName":"Mumbai","vibhCircleId":1},"dealStatus":{"dealStatusId":1,"dealStatusName":"Pending"},"createdBy":null,"lifeCycleStatus":null,"comment":null,"updatedBy":null,"contractId":"","isArp":null,"isBilling":null},"requestId":"30606061358","requestTimeStamp":"13/11/2025 11:00:04","responseTimeStamp":1763011804632,"operation":"CREATE_DEAL"}
+2025-11-13 11:00:04,126 - INFO - === CURL STDOUT END ===
+2025-11-13 11:00:04,126 - ERROR - CURL STDERR: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1847    0  1037  100   810  17283  13500 --:--:-- --:--:-- --:--:-- 30783
+2025-11-13 11:00:04,126 - INFO - Deal created successfully with dealId = 2171721265
+2025-11-13 11:00:04,127 - INFO - ====== WebDriver manager ======
+2025-11-13 11:00:05,209 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-13 11:00:05,301 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-13 11:00:05,396 - INFO - Driver [C:\Users\naveen.basavaraj\.wdm\drivers\chromedriver\win64\142.0.7444.162\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-13 11:01:05,677 - INFO - ====== WebDriver manager ======
+2025-11-13 11:01:06,945 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-13 11:01:07,046 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-13 11:01:07,130 - INFO - Driver [C:\Users\naveen.basavaraj\.wdm\drivers\chromedriver\win64\142.0.7444.162\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-13 11:05:37,374 - INFO - === Automation Script Stopped ===

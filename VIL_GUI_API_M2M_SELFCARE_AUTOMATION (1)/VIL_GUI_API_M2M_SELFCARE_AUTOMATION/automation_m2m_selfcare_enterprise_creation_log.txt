@@ -1,0 +1,52 @@
+2026-01-28 14:46:14,751 - INFO - === Automation Script Started ===
+2026-01-28 14:46:35,282 - INFO - Connecting to outer SSH server...
+2026-01-28 14:46:35,393 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2026-01-28 14:46:35,593 - INFO - Authentication (password) successful!
+2026-01-28 14:46:35,593 - INFO - Connected to outer SSH server.
+2026-01-28 14:46:35,667 - INFO - Connecting to inner SSH server through outer...
+2026-01-28 14:46:35,718 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2026-01-28 14:46:36,003 - INFO - Auth banner: b'Authorized access only. This system is the property of VodafoneIdea Mobile. \nDisconnect IMMEDIATELY if you are not an authorized user! All connection attempts are logged and monitored. \nAll unauthorized connection attempts will be investigated and handed over to the proper authorities.\n'
+2026-01-28 14:46:36,004 - INFO - Authentication (password) successful!
+2026-01-28 14:46:36,004 - INFO - Connected to inner SSH server.
+2026-01-28 14:46:36,004 - INFO - Executing curl command on inner server...
+2026-01-28 14:46:40,581 - INFO - === CURL STDOUT START ===
+2026-01-28 14:46:40,582 - INFO - HTTP/1.1 100 
+
+HTTP/1.1 200 
+X-Response-Code: 200
+X-Response-Desc: Success
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 28 Jan 2026 09:16:40 GMT
+
+{"orderId":"17315255101","resultParam":{"resultCode":"0","resultDescription":"Success"}}
+2026-01-28 14:46:40,582 - INFO - === CURL STDOUT END ===
+2026-01-28 14:46:40,582 - ERROR - CURL STDERR: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2178    0     0  100  2178      0   1813  0:00:01  0:00:01 --:--:--  1813100  2178    0     0  100  2178      0    989  0:00:02  0:00:02 --:--:--   989100  2178    0     0  100  2178      0    679  0:00:03  0:00:03 --:--:--   679100  2178    0     0  100  2178      0    518  0:00:04  0:00:04 --:--:--   518100  2266    0    88  100  2178     20    509  0:00:04  0:00:04 --:--:--   530
+2026-01-28 14:46:40,583 - INFO - ====== WebDriver manager ======
+2026-01-28 14:46:41,869 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 14:46:42,185 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 14:46:42,475 - INFO - Driver [C:\Users\srinivasa.ravikumar\.wdm\drivers\chromedriver\win64\144.0.7559.109\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-28 14:47:13,048 - INFO - Connecting to outer SSH server...
+2026-01-28 14:47:13,132 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2026-01-28 14:47:13,270 - INFO - Authentication (password) successful!
+2026-01-28 14:47:13,270 - INFO - Connected to outer SSH server.
+2026-01-28 14:47:13,340 - INFO - Connecting to inner SSH server through outer...
+2026-01-28 14:47:13,363 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2026-01-28 14:47:13,603 - INFO - Auth banner: b'Authorized access only. This system is the property of VodafoneIdea Mobile. \nDisconnect IMMEDIATELY if you are not an authorized user! All connection attempts are logged and monitored. \nAll unauthorized connection attempts will be investigated and handed over to the proper authorities.\n'
+2026-01-28 14:47:13,603 - INFO - Authentication (password) successful!
+2026-01-28 14:47:13,603 - INFO - Connected to inner SSH server.
+2026-01-28 14:47:13,603 - INFO - Executing mysql command on inner server...
+2026-01-28 14:47:14,011 - INFO - === MYSQL COMMAND 1 OUTPUT START ===
+2026-01-28 14:47:14,011 - INFO - 
+2026-01-28 14:47:14,011 - INFO - === MYSQL COMMAND 1 OUTPUT END ===
+2026-01-28 14:47:14,011 - ERROR - MYSQL COMMAND 1 STDERR: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2026-01-28 14:47:14,011 - INFO - === MYSQL OUTPUTS CAPTURED ===
+2026-01-28 14:47:14,011 - WARNING - No ID value returned from MySQL query.
+2026-01-28 14:47:29,488 - INFO - ====== WebDriver manager ======
+2026-01-28 14:47:31,838 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 14:47:32,328 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-28 14:47:32,781 - INFO - Driver [C:\Users\srinivasa.ravikumar\.wdm\drivers\chromedriver\win64\144.0.7559.109\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-28 14:48:27,816 - INFO - === Automation Script Completed ===

@@ -1,0 +1,30 @@
+2025-11-13 16:34:24,780 - INFO - === Automation Script Started ===
+2025-11-13 16:34:50,368 - INFO - Connecting to outer SSH server...
+2025-11-13 16:34:50,433 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2025-11-13 16:34:50,746 - INFO - Authentication (password) successful!
+2025-11-13 16:34:50,746 - INFO - Connected to outer SSH server.
+2025-11-13 16:34:50,850 - INFO - Connecting to inner SSH server through outer...
+2025-11-13 16:34:50,852 - INFO - Connected (version 2.0, client OpenSSH_8.0)
+2025-11-13 16:34:51,431 - INFO - Auth banner: b'Authorized access only. This system is the property of VodafoneIdea Mobile. \nDisconnect IMMEDIATELY if you are not an authorized user! All connection attempts are logged and monitored. \nAll unauthorized connection attempts will be investigated and handed over to the proper authorities.\n'
+2025-11-13 16:34:51,432 - INFO - Authentication (password) successful!
+2025-11-13 16:34:51,432 - INFO - Connected to inner SSH server.
+2025-11-13 16:34:51,432 - INFO - Executing mysql command on inner server...
+2025-11-13 16:35:02,262 - INFO - === MYSQL COMMAND 1 OUTPUT START ===
+2025-11-13 16:35:02,262 - INFO - serialnumber	status_id	ICCID	imsi	status	msisdn	EID	CIRCLE_ID
+89918890185604730623	4	89918890185604730623	40418822478004	9			1130589
+2025-11-13 16:35:02,262 - INFO - === MYSQL COMMAND 1 OUTPUT END ===
+2025-11-13 16:35:02,262 - ERROR - MYSQL COMMAND 1 STDERR: mysql: [Warning] Using a password on the command line interface can be insecure.
+2025-11-13 16:35:02,263 - INFO - === MYSQL OUTPUTS CAPTURED ===
+2025-11-13 16:35:02,263 - INFO - ICCID Output lines: ['serialnumber\tstatus_id\tICCID\timsi\tstatus\tmsisdn\tEID\tCIRCLE_ID', '89918890185604730623\t4\t89918890185604730623\t40418822478004\t9\t\t\t1130589']
+2025-11-13 16:35:02,264 - INFO - \u2705 Combined CSV generated successfully: ICCID.csv
+2025-11-13 16:35:02,276 - INFO - === CSV FILE CONTENT START ===
+2025-11-13 16:35:02,277 - INFO - 
+iccid
+89918890185604730623
+2025-11-13 16:35:02,277 - INFO - === CSV FILE CONTENT END ===
+2025-11-13 16:35:02,279 - INFO - === Automation Script Completed ===
+2025-11-13 16:35:02,280 - INFO - ====== WebDriver manager ======
+2025-11-13 16:35:03,402 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-13 16:35:03,756 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-13 16:35:03,869 - INFO - Driver [C:\Users\naveen.basavaraj\.wdm\drivers\chromedriver\win64\142.0.7444.162\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-13 16:37:08,415 - INFO - === Automation Script Completed ===
