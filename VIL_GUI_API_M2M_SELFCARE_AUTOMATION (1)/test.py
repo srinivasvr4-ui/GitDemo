@@ -15,6 +15,8 @@ driver.find_element(By.XPATH, "//input[@id='password']").send_keys("Admin@123")
 
 driver.find_element(By.XPATH, "//button[@type='sign in']").click()
 
+#driver.find.element()
+
 # Wait for page load
 time.sleep(3)
 
