@@ -25,4 +25,6 @@ message = driver.find_element(By.ID, "flash").text
 print("Message:", message)
 print("Message click:", message)
 print("Message flash:", message)
+print("Message test:", message)
+
 driver.quit()
