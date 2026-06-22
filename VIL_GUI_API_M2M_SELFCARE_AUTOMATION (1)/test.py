@@ -23,5 +23,6 @@ time.sleep(3)
 # Validate login success message
 message = driver.find_element(By.ID, "flash").text
 print("Message:", message)
-
+print("Message click:", message)
+print("Message flash:", message)
 driver.quit()
